@@ -1,9 +1,14 @@
 import type { NextPage } from "next";
+import Navbar from "../components/student/navbar";
+import Footer from "../components/student/footer";
+import Herobanner from "../components/student/Herobanner";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-gray-500">
-      <h1>Hello world</h1>
+    <div>
+      <Navbar />
+      <Herobanner />
+      {/* <Footer /> */}
     </div>
   );
 };
