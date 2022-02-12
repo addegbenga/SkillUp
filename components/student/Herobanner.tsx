@@ -10,6 +10,19 @@ const Herobanner: NextPage = () => {
         height={350}
         layout="intrinsic"
       />
+      <div className="px-4 my-3">
+        <h1 className="text-3xl font-medium">Learning that gets you</h1>
+        <p className="text-lg my-3">
+          Skills for your personal (and your future). Get atarted
+        </p>
+        <div>
+          <input
+            className="grid border-black p-3 w-full border"
+            type="search"
+            placeholder="What do you want to learn ?"
+          />
+        </div>
+      </div>
     </div>
   );
 };
