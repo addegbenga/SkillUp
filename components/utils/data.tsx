@@ -1,21 +1,27 @@
-export const dummycategory = [
+export const dummytopcategory = [
   {
-    name: "Python",
+    name: "Development",
   },
   {
-    name: "Excel",
+    name: "Design",
   },
   {
-    name: "Web Development",
+    name: "Marketing",
   },
   {
-    name: "Javascript",
+    name: "IT and Software",
   },
   {
-    name: "Data Science",
+    name: "Personal Development",
   },
   {
-    name: "Aws Certification",
+    name: "Business",
+  },
+  {
+    name: "Photography",
+  },
+  {
+    name: "Music",
   },
 ];
 

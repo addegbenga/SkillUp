@@ -33,7 +33,7 @@ const CategoryTabs: NextPage<CategoryTypes> = ({ categories }) => {
                   )
                 }
               >
-                <FaChevronDown />
+                <FaChevronDown size={13} />
               </button>
             </div>
             {isOpenArrayState.includes(index) ? (
